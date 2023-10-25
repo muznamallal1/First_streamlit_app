@@ -49,6 +49,3 @@ streamlit.dataframe(fruityvice_normalized)
 import snowflake.connector
 
 
-pip install h5py
-pip install typing-extensions
-pip install wheel
