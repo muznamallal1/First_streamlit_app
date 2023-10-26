@@ -74,6 +74,11 @@ def insert_row_snowflake(new_fruit):
 
 #streamlit.stop()
 
+#add button
+if streamlit.button('Get fruit Load List'):
+    my_data_rows = get_fruit_load_list()
+   streamlit.dataframe(my_data_rows)
+
     
 
 add_my_fruit=streamlit.text_input('What fruit do you want to add?')
@@ -86,10 +91,6 @@ streamlit.header("The fruit list contains:")
 
 
 
-#add button
-#if streamlit.button('Get fruit Load List'):
-    #my_data_rows = get_fruit_load_list()
-   #streamlit.dataframe(my_data_rows)
 
 
 
