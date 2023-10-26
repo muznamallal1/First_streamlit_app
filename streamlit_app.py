@@ -80,9 +80,9 @@ def get_fruit_load_list():
          return  my_cur.fetchall()
 
 #add button
-if streamlit.button('Get fruit Load List'):
-        my_data_rows = get_fruit_load_list()
-    streamlit.dataframe(my_data_rows)
+#if streamlit.button('Get fruit Load List'):
+ #   my_data_rows = get_fruit_load_list()
+  #  streamlit.dataframe(my_data_rows)
 
 
 
